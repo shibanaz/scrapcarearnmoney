@@ -1,0 +1,240 @@
+.header-content{
+    height:50px;
+    
+}
+
+.header-body{
+    display: flex;
+}
+
+.nav-items{
+   flex:2;
+   font-family: "Helvetica", Sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #008037;
+   padding: 0px 15px 0px 15px;
+}
+
+.ul-content{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo-content{
+    flex:1;
+    display:flex;
+    align-items: center;
+    color: #008037;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.app-logo{
+  height: 50px;
+}
+
+li:hover > a{
+  color: #192A27;
+
+}
+
+.first-content{
+    background-image: url("https://carscrapper.co.in/wp-content/uploads/2024/06/Congratulations4-scaled.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-content{
+    width: 100%;
+    height: 100%;
+}
+
+.first-content{
+    width: 100%;
+    height: 500px;
+}
+
+.first-content-card{
+    width: 100%;
+    padding-top:10%;
+    height: 180px;
+    text-align: center;
+}
+
+.first-content-card-content{
+    width: 45%;
+    background: #FFFFFFCC;
+    transition:  0.3s,0.3s,0.3s,0.3s;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 20px;
+    margin: auto;
+}
+
+.card-content-label{
+    color: #008037;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+}
+
+.card-content-label-second{
+    color: #192A27;
+    margin: 10px 51px 25px 0px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 45px;
+}
+
+.card-content-contact{
+    transition: all .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);
+}
+
+.card-content-contact-link{
+    background-color: #008037;
+    width: 40%;
+    padding: 10px 20px 10px 20px;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #008037;
+    border-radius: 49px 49px 49px 49px;
+    box-shadow: 19px 19px 40px 0px rgba(0,0,0,0.1);
+}
+
+.header-details{
+    display: flex;
+    background: #008037;
+    height: 40px;
+    width: 100%;
+   align-items: center;
+   color: white;
+   font-weight: 700;
+   font-size: 24px;
+   gap:20px;
+}
+
+.btn-wrapper
+{
+    text-align: center;
+}
+
+.second-content-card{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: white;
+}
+
+.card-one-label{
+    color: #008037;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+}
+
+.card-one-label-next{
+    color: #192A27;
+    margin: 5px 0px 0px 0px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+.card-two-img
+{
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.second-content{
+  width: 100%;
+  height: 250px;
+}
+
+.child-common{
+display: flex;
+}
+
+.last-content{
+    display: flex;
+    justify-content: center;
+}
+
+.lc-label-one{
+    color: #192A27;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+}
+
+.lc-label-two{
+    color: #008037;
+    margin: 5px 51px 0px 0px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
+.lc-label-three{
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+}
+
+.lc-fotter-one{
+    background-color: #008037;
+    color: #ffffff;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 10px 10px 10px;
+    margin:5px;
+}
+
+.lc-fotter-two{
+    background-color: #192A27;
+    color: #ffffff;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 10px 10px 10px;
+    margin:5px;
+}
+
+.fotter-content{
+    text-align: center;
+}
+
+.fotter-details{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.con-number{
+    margin-left: 20px;
+}
