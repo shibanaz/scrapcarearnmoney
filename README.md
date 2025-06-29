@@ -1,4 +1,4 @@
-# Rsbuild project
+# Scrap car and earn money project
 
 ## Setup
 
