@@ -12,7 +12,7 @@ export default function Home(){
             </div>
             <div className='con-emailid'>
               <span>
-              <h6>Email : scrapexchangecars@gmail.com</h6>
+              <h6>Email : shiba@scrapcar-earnmoney.com</h6>
               </span>
             </div>
           </div>
