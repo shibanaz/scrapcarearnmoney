@@ -37,7 +37,7 @@ export default function Home(){
           <div className='header-details'>
             <div className='con-number  ml-2'>
               <span>
-              <h6>Phone Number: +91 7678410999</h6></span>
+              <h6>Phone Number: +91 7678410999/7860636786</h6></span>
             </div>
             <div className='con-emailid'>
               <span>
