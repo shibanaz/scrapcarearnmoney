@@ -1,9 +1,17 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './home/home';
+import CDForm from './home/cod';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <Home></Home>
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/buy-cod" element={<CDForm />} />
+        </Routes>
+     
+    </Router>
   );
 };
 
