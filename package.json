@@ -6,8 +6,13 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview"
-  },
+    "preview": "rsbuild preview",
+      "postbuild": "node generate-sitemap.js"
+
+  },"reactSnap": {
+  "inlineCss": true,
+  "routes": ["/", "/buy-cod"]
+},
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "react": "^19.1.0",
@@ -19,6 +24,9 @@
     "@rsbuild/plugin-react": "^1.3.2",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "react-helmet-async": "^2.0.5",
+    "react-snap": "^1.23.0",
+    "sitemap": "^8.0.0",
     "typescript": "^5.8.3"
   }
 }

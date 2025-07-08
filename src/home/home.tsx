@@ -1,19 +1,23 @@
 import myImage from '../assets/images/favicon.ico';
 import tick from '../assets/images/tick.webp'; 
 import whtsapp from '../assets/images/whtsapp.webp'; 
-import rupee from '../assets/images/rupee.webp'; 
-// import chart from '../assets/images/chart.webp'; 
+import rupee from '../assets/images/rupee.webp';  
 import car from '../assets/images/car.webp'; 
 import './home.css';
+import { Helmet } from 'react-helmet-async';
 
 export default function Home(){
 
+  <Helmet>
+        <title>Car Scrap Earn Money-Home</title>
+        <meta name="description" content="Welcome to Car Scrap Earn Money , where you find..." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Car Scrap Earn Money  - Home" />
+        <meta property="og:description" content="Awesome homepage of Car Scrap Earn Money " />
+        <meta property="og:type" content="website" />
+  </Helmet>
+
     const advantages = [
-    // {
-    //   icon: chart,
-    //   title: 'Check vehicle RC expiry',
-    //   description: 'Enter your vehicle number to confirm owner and vehicle expiry date',
-    // },
     {
   
       icon: whtsapp,
