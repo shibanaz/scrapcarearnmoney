@@ -35,10 +35,11 @@ const CDForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
-    
+    const service_id = 'service_9qlut09'; // from dashboard
+    const public_key ='O1yl5Qkl-5Ym7Py2t';
     emailjs.send(
-    'service_rszf34t', // from dashboard
-    'template_3seumpr', // from dashboard
+    service_id, // from dashboard
+    'template_1weuy1j', // from dashboard
     {
         name: formData.firstName,
         phone: formData.phone,
@@ -48,9 +49,21 @@ const CDForm: React.FC = () => {
         maker: formData.maker,
         model: formData.model,
     },
-    '6Dm0EgV-d9r4IEECZ' // your public key
-    ).then(() => {alert('Form Submitted'); formRef.current?.reset();} )
-
+    public_key // your public key
+    ).then(() => {
+      alert('Form Submitted');
+    setFormData({
+    firstName: '',
+    lastName: '',
+    phone: '',
+    email: '',
+    buyerType: '',
+    state: '',
+    maker: '',
+    model: '',
+    });  
+      }
+     )
   };
 
   return (
@@ -88,16 +101,18 @@ const CDForm: React.FC = () => {
             value={formData.phone}
             onChange={handleChange}
             required
+            maxLength={10}
           />
         </div>
 
         <div className="form-group">
-          <label>Email</label>
+          <label>Email<span>*</span></label>
           <input
             type="email"
             name="email"
             placeholder="your@email.com"
             value={formData.email}
+            required
             onChange={handleChange}
           />
         </div>
@@ -121,8 +136,8 @@ const CDForm: React.FC = () => {
         </div>
 
         <div className="form-group">
-          <label>State</label>
-          <select name="state" value={formData.state} onChange={handleChange}>
+          <label>State<span>*</span></label>
+          <select name="state" value={formData.state} onChange={handleChange} required>
             <option value="">Select State</option>
             <option value="maharashtra">Maharashtra</option>
             <option value="delhi">Delhi</option>
