@@ -253,15 +253,19 @@ a{
   /* display: inline-block; */
 }
 
+.logo-text{
+  display: flex;
+  margin-left: 10px;
+}
+
 .icon-img {
-  width: 29%;
-  height: 29%;
-  padding-top: 2%;
-  object-fit: contain;
+   width: 25px;
+  height: 25px;
   
 }
 .text-size{
     font-size: 14px;
+    padding:5px 0 0 5px
 }
 .adv-title {
   text-align: center;
