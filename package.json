@@ -6,8 +6,7 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview",
-    "postbuild": "node generate-sitemap.js"
+    "preview": "rsbuild preview"
   },
   "reactSnap": {
     "inlineCss": true,
@@ -33,7 +32,6 @@
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "axios": "^1.10.0",
-    "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.60.0",
     "react-snap": "^1.23.0",
     "sitemap": "^8.0.0",
