@@ -32,6 +32,10 @@
     font-size: 18px;
 }
 
+.logo-content:hover{
+  cursor: pointer;
+}
+
 .app-logo{
   height: 50px;
 }

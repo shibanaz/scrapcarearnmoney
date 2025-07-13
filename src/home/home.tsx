@@ -1,4 +1,3 @@
-import myImage from '../assets/images/favicon.ico';
 import tick from '../assets/images/tick.webp'; 
 import whtsapp from '../assets/images/whtsapp.webp'; 
 import rupee from '../assets/images/rupee.webp';  
@@ -39,32 +38,7 @@ export default function Home(){
   ];
     return(
         <div className="main-content">
-          <div className='header-details'>
-            <div className='con-number  ml-2'>
-              <span>
-              <h6>Phone Number: +91 7678410999/7860636786</h6></span>
-            </div>
-            <div className='con-emailid'>
-              <span>
-              <h6>Email : scrapservices@scrapcar-earnmoney.com</h6>
-              </span>
-            </div>
-          </div>
-    <nav className="header-content">
-      <div className="header-body">
-        <div className="logo-content">
-         <img src={myImage} className='app-logo' /> 
-        <span>Scrap Car and Earn Money</span>
-        </div>
-        <ul className="ul-content">
-          <li><a href='' className="nav-items">Scrap Your Vehical</a></li>
-          <li><a href='' className="nav-items">Vehical Inspection</a></li>
-          <li><a href='' className="nav-items">About US</a></li>
-          <li><a href='' className="nav-items">Contact US</a></li>
-          <li><a href='' className="nav-items">FAQ</a></li>
-        </ul>
-      </div>
-    </nav>
+          
     <div className='body-content'>
       <div className='first-content'>
       <div className='first-content-card'>
