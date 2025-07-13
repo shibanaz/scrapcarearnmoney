@@ -1,10 +1,24 @@
 
 // import React from 'react';
 import './AboutUs.css';
+import {
+  Box, 
+} from '@mui/material';
+
 export default function Aboutus(){
 
     
     return(
+          <Box
+                  sx={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    minHeight: '100vh',
+                    backgroundColor: '#f0f0f0',
+                    padding:0
+                  }}
+                >
         <div className="mt-4 about-container">
             <h1>About Us</h1>
             <p>
@@ -38,6 +52,6 @@ export default function Aboutus(){
                 <li>Serving Delhi, UP, and Haryana</li>
             </ul>
         </div>
-        
+    </Box>   
     );
 }  
