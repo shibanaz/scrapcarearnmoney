@@ -47,64 +47,74 @@ export default function Home(){
       </div>
     </div>
     
-    <div className='last-content'>
-      
+    <div className='last-content'>   
       <div>
-      <div className="buy-cd">
-        <h2 className="m-4 ">
-        <a href="/buy-cod" className="animated-link">Buy Your CERTIFICATE OF DEPOSIT(COD)</a>
-        </h2>
-      </div>
-        
-      <div className="m-4 mt-10">
-        <div className="fotter-content">   
-          <h3 className="lc-label-two">What We Scrap</h3>         
-          <h4>From Hatch back, sedans to SUVs—we scrap it all! Get top value for your vehicle today.</h4>
-          {/* <a className="lc-fotter-two" href=''>check Us(+91 7678410999)</a> */}
-        </div>
-      </div>
-      <div className="m-4">
-        <div className="cards">   
-          <div className="logo-text">
-              <img src={tick} className='icon-img'></img>
-            <span className='text-size'>Diesel(10+) or Petrol(15+)
-            </span>
+        <div className="card-container">
+          <div className="card">
+            <h2>Scrap It. Earn Big!</h2>
+            <p><a href="/get-exchange-value" className="card-link">Get Exchange Value</a></p>
           </div>
-          <div className="logo-text">
-              <img src={tick} className='icon-img'></img>
-            <span className='text-size'>Damaged cars
-            </span>
-          </div>
-          <div className="logo-text">
-              <img src={tick} className='icon-img'></img>
-            <span className='text-size'>Part-exchange cars
-            </span>
-          </div>
-          <div className="logo-text">
-              <img src={tick} className='icon-img'></img>
-            <span className='text-size'>MOT failures
-            </span>
-          </div>
-          <div className="logo-text">
-              <img src={tick} className='icon-img'></img>
-            <span className='text-size'>Scrap Abandoned vehicle
-            </span>
+          <div className="card">
+            <h2>Buy Certificate of Deposit </h2>
+            <p><a href="/buy-cod" className="card-link">Buy COD</a></p>
           </div>
         </div>
-      </div>
-      <div className="">
-      <h2 className="adv-title ">Our Advantages</h2>
-      <div className="adv-grid">
-        {advantages.map((item, index) => (
-          <div key={index} className="adv-card">
-            <img src={item.icon} alt={item.title} className="adv-icon" />
-            <h3 className="adv-heading">{item.title}</h3>
-            <p className="adv-desc">{item.description}</p>
+        {/* <div className="buy-cd">
+          <h2 className='exchange-text'>Scrap It. Earn Big!(Get Exchange Value)</h2>
+          <h2 >
+          <a href="/buy-cod" className="animated-link">Buy Certificate of Deposit(COD)</a>
+          </h2>
+          
+        </div> */}
+        <div className="m-4 mt-10">
+          <div className="fotter-content">   
+            <h3 className="lc-label-two">What We Scrap</h3>         
+            <h4>From Hatch back, sedans to SUVs—we scrap it all! Get top value for your vehicle today.</h4>
+            {/* <a className="lc-fotter-two" href=''>check Us(+91 7678410999)</a> */}
           </div>
-        ))}
-      </div>
-    </div>
-    <div className="fotter-details">
+        </div>
+        <div className="m-4">
+          <div className="cards">   
+            <div className="logo-text">
+                <img src={tick} className='icon-img'></img>
+              <span className='text-size'>Diesel(10+) or Petrol(15+)
+              </span>
+            </div>
+            <div className="logo-text">
+                <img src={tick} className='icon-img'></img>
+              <span className='text-size'>Damaged cars
+              </span>
+            </div>
+            <div className="logo-text">
+                <img src={tick} className='icon-img'></img>
+              <span className='text-size'>Part-exchange cars
+              </span>
+            </div>
+            <div className="logo-text">
+                <img src={tick} className='icon-img'></img>
+              <span className='text-size'>MOT failures
+              </span>
+            </div>
+            <div className="logo-text">
+                <img src={tick} className='icon-img'></img>
+              <span className='text-size'>Scrap Abandoned vehicle
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="">
+        <h2 className="adv-title ">Our Advantages</h2>
+        <div className="adv-grid">
+          {advantages.map((item, index) => (
+            <div key={index} className="adv-card">
+              <img src={item.icon} alt={item.title} className="adv-icon" />
+              <h3 className="adv-heading">{item.title}</h3>
+              <p className="adv-desc">{item.description}</p>
+            </div>
+          ))}
+        </div>
+        </div>
+        <div className="fotter-details">
           <h2 className="lc-label-one m-4">
 						Have questions or need assistance?
 					</h2>
@@ -112,15 +122,15 @@ export default function Home(){
           <div className="lc-label-three">
 					<p>Our dedicated representatives are here to help! Feel free to reach out to us using any of the options below:</p>
 				</div>
-			</div>
+			  </div>
       
-      <div className="m-4 fotter-details">
-        <div className="fotter-content">            
-          <a className="lc-fotter-one " href="https://api.whatsapp.com/send/?phone=917678410999&amp;text&amp;type=phone_number&amp;app_absent=0">
-            WhatsApp</a>
-          <a className="lc-fotter-two" href=''>Contact Us(+91 7678410999)</a>
+        <div className="m-4 fotter-details">
+          <div className="fotter-content">            
+            <a className="lc-fotter-one " href="https://api.whatsapp.com/send/?phone=917678410999&amp;text&amp;type=phone_number&amp;app_absent=0">
+              WhatsApp</a>
+            <a className="lc-fotter-two" href=''>Contact Us(+91 7678410999)</a>
+          </div>
         </div>
-      </div>
       </div>
     </div>
     </div>

@@ -23,6 +23,9 @@ return(
               <h6>Email : scrapservices@scrapcar-earnmoney.com</h6>
               </span>
             </div>
+            <div className='gov-com'>
+              <h6>Government Authorised Company</h6>
+            </div>
           </div>
     <nav className="header-content">
       <div className="header-body">
@@ -31,9 +34,9 @@ return(
         <span>Scrap Car and Earn Money</span>
         </div>
         <ul className="ul-content">
-          <li><a href='' className="nav-items">Scrap Your Vehical</a></li>
-          <li><a href='' className="nav-items">Vehical Inspection</a></li>
-          <li><a href='' className="nav-items">About US</a></li>
+          <li><a href='/get-exchange-value' className="nav-items">Scrap Your Vehical</a></li>
+          <li><a href='buy-cod' className="nav-items">BUY COD</a></li>
+          <li><a href='/aboutus' className="nav-items">About US</a></li>
           <li><a href='/contact-us' className="nav-items">Contact US</a></li>
           <li><a href='' className="nav-items">FAQ</a></li>
         </ul>

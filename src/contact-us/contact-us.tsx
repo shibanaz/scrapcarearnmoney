@@ -85,15 +85,16 @@ const ContactForm: React.FC = () => {
         component="form"
         onSubmit={handleSubmit(onSubmit)}
         sx={{
-          backgroundColor: 'lightgreen',
-          padding: 4,
+          backgroundColor: 'white',
+          padding: 2,
           borderRadius: 2,
           boxShadow: 3,
           maxWidth: 500,
           width: '100%',
+         
         }}
       >
-        <Typography variant="h5" color="white" gutterBottom>
+        <Typography variant="h5" color="black" gutterBottom>
           Contact Form
         </Typography>
 

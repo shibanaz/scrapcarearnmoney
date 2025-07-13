@@ -1,5 +1,6 @@
 .cd-form-container {
-  background: #f1f4f9;
+  background: white;
+  /* background-color: #f0f0f0; */
   padding: 30px;
   max-width: 600px;
   margin: 40px auto;

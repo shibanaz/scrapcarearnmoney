@@ -317,12 +317,12 @@ a{
 }
 .animated-link {
   position: relative;
-  display: inline-block;
+  display: flex;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #0077cc;
+  color: #008037;
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
   animation: blinkColor 1s infinite;
   transition: color 0.3s ease;
 }
@@ -330,7 +330,7 @@ a{
 .animated-link::after {
   content: '';
   position: absolute;
-  left: 0;
+  left: 2%;
   bottom: -4px;
   height: 2px;
   width: 100%;
@@ -350,7 +350,7 @@ a{
 
 /* 🔁 Blinking Color Animation */
 @keyframes blinkColor {
-  0% { color: #405d27; }      /* blue */
+  0% { color: #008037; }      /* blue */
 
   50% { color: #82b74b; }     /* green */
 
@@ -359,4 +359,54 @@ a{
 .buy-cd{
   width:100%;
   text-align: center;
+  display: flex;
+}
+.exchange-text {
+  font-size: 1.5rem;
+  margin-top: 2.5%;
+  color: #82b74b;
+  gap: 2%;
+  margin-right:1%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #008037;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  color: #10b981;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #059669;
+  text-decoration: underline;
+}
+.gov-com{
+  align-items: flex-end;
 }
