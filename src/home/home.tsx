@@ -3,6 +3,11 @@ import whtsapp from '../assets/images/whtsapp.webp';
 import rupee from '../assets/images/rupee.webp';  
 import car from '../assets/images/car.webp'; 
 import './home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Home(){
 
@@ -114,6 +119,49 @@ export default function Home(){
           ))}
         </div>
         </div>
+      </div>
+    </div>
+    <div>
+        <div className='contact-content'>
+          <div className='contact-content-card'>
+          <h2 className="contact-label">CONTACT US</h2>
+          <ul className='contact-items'>
+            <li className='li-common'>
+              <span className='li-logo'>
+                <FontAwesomeIcon icon={faPhone} />
+              </span>
+              <span className='contact-label-font'>
+                <strong>+91 7678410999/7860636786</strong>(Timing: 9 AM - 9 PM)
+              </span>
+            </li>
+            <li className='li-common'>
+              <span className='li-logo'>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </span>
+              <span className='contact-label-font'>
+                <strong>scrapservices@scrapcar-earnmoney.com</strong>
+              </span>
+            </li>
+            <li className='li-common li-location'>
+              <span className='li-logo'>
+                 <FontAwesomeIcon icon={faLocationDot} />
+              </span>
+              <span className='contact-label-font'>
+                <span>A44/A, Khirki Extension, 
+                  Panchsheel Vihar, 
+                  Sheikh Sarai Village, 
+                  Malviya Nagar,
+                  New Delhi, 
+                  Delhi 110017</span>
+              </span>
+            </li>
+          </ul>
+          </div>
+        </div>
+        <div className='map-content'>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448663.92433907953!2d76.65934166562499!3d28.534101200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a8d8c984c7%3A0x4c5d0fbc750aabb5!2sscrap%20car%20and%20earn%20money!5e0!3m2!1sen!2sin!4v1754750518277!5m2!1sen!2sin" 
+           width="auto" height="auto" className="map-body" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>             
+        </div>
         <div className="fotter-details">
           <h2 className="lc-label-one m-4">
 						Have questions or need assistance?
@@ -131,7 +179,6 @@ export default function Home(){
             <a className="lc-fotter-two" href=''>Contact Us(+91 7678410999)</a>
           </div>
         </div>
-      </div>
     </div>
     </div>
    </div>
